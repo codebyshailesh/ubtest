@@ -8,30 +8,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap");
 :root {
   /* Backgrounds */
-  --bg: #0b1a19;
-  --bg-soft: #122624;
-  --surface: #1b3330;
+  --bg: #121212;
+  --bg-soft: #1e1e1e;
+  --surface: #2d2d2d;
 
   /* Borders */
-  --border: #2c4c48;
+  --border: #3d3d3d;
 
   /* Text Colors */
   --text: #ffffff;
-  --text-muted: #a3bebb;
+  --text-muted: #aaaaaa;
 
-  /* Brand Colors (Teal) */
-  --primary: #00ccb4;
-  --primary-hover: #33ffd8;
+  /* Brand Colors (Neutral Accents) */
+  --primary: #e0e0e0;
+  --primary-hover: #ffffff;
 
   /* Accent Colors */
-  --accent: #ffb84d;
-  --danger: #ff6b6b;
-  --success: #4eff91;
+  --accent: #007bff;
+  --danger: #dc3545;
+  --success: #28a745;
 
   /* Corner Radii */
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
+
   --font-display: "Fraunces", serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
