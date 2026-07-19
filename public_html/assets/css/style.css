@@ -6,37 +6,32 @@
    ========================================================================== */
 
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap");
-
 :root {
-  --bg: #07201e;
-  --bg-soft: #0b2b27;
-  --surface: #dbe1e0;
-  --surface-raised: #153e38;
-  --border: #1f5148;
-  --border-soft: #1a433c;
+  /* Backgrounds */
+  --bg: #0b1a19;
+  --bg-soft: #122624;
+  --surface: #1b3330;
 
-  --text: #e9f5f1;
-  --text-muted: #9fc6bc;
-  --text-faint: #6e9b90;
+  /* Borders */
+  --border: #2c4c48;
 
-  --teal: #2bb3a3;
-  --teal-bright: #5fe2cd;
-  --teal-dim: #1e7a6e;
+  /* Text Colors */
+  --text: #ffffff;
+  --text-muted: #a3bebb;
 
-  --brass: #e3a542;
-  --brass-bright: #f4be66;
+  /* Brand Colors (Teal) */
+  --primary: #00ccb4;
+  --primary-hover: #33ffd8;
 
-  --danger: #e4644b;
-  --danger-bg: #3a2019;
-  --success: #59c97d;
-  --success-bg: #12332a;
-  --pending-bg: #3a2e12;
-  --pending-text: #e3a542;
+  /* Accent Colors */
+  --accent: #ffb84d;
+  --danger: #ff6b6b;
+  --success: #4eff91;
 
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 16px;
-
+  /* Corner Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
   --font-display: "Fraunces", serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
